@@ -164,4 +164,17 @@ nav ul li {
         flex-direction: column;
         gap: 50px;
     }
+
+    /* Run Extra Mile */
+    .extra-mile{
+        flex-direction: column;
+        margin: 65px 20px 0px;
+        padding: 33px;
+
+    }
+    .extra-run{
+        min-width: 450px;
+        margin: 0 auto;
+        
+    }
 }
