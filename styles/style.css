@@ -21,6 +21,11 @@
 .main{
     background-color: #000;
 }
+.common-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
 /* Header section */
 nav ul li a{
     text-decoration: none;
@@ -75,6 +80,30 @@ nav ul li {
     margin-top: 35px;
 }
 
+/* Change your habit */
+.change-your-habit{
+    text-align: center;
+}
+.change-your-imgs{
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.change-your-imgs img{
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 55px;
+    margin: 0 auto;
+}
+.chng{
+    padding-top: 50px;
+}
+.chng-desc{
+    margin: 50px;
+}
+
 
 /* Responsive design for Mobile device */
 @media screen and (max-width: 576px) {
@@ -103,5 +132,15 @@ nav ul li {
     }
     .banner-buttons{
         flex-direction: row;
+    }
+
+    /* change your habit */
+    .change-your-habit{
+        max-width: 335px;
+        margin: 0 auto;
+    }
+    .change-your-imgs{
+        flex-direction: column;
+        gap: 50px;
     }
 }
