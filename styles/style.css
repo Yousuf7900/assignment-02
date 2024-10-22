@@ -104,6 +104,27 @@ nav ul li {
     margin: 50px;
 }
 
+/* Extra mile section */
+.extra-mile{
+    max-width: 975px;
+    margin: 0px auto;
+    margin-top: 100px;
+    justify-content: center;
+    border-radius: 18px;
+    background: #222;
+    gap: 100px;
+    padding: 30px 0px;
+    
+}
+.extra-run{
+    max-width: 366px;
+    border-radius: 20px;
+}
+.extra-content{
+    flex-direction: column;
+    gap: 20px;
+}
+
 
 /* Responsive design for Mobile device */
 @media screen and (max-width: 576px) {
