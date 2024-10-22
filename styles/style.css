@@ -170,11 +170,5 @@ nav ul li {
         flex-direction: column;
         margin: 65px 20px 0px;
         padding: 33px;
-
-    }
-    .extra-run{
-        min-width: 450px;
-        margin: 0 auto;
-        
     }
 }
