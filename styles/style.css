@@ -215,6 +215,7 @@ table, tr, td, th{
 /* Footer section */
 .footer{
     background-color: #222;
+    padding: 50px;
 }
 
 .footer-container{
@@ -230,7 +231,31 @@ table, tr, td, th{
     flex-direction: column;
 
 }
-
+.common-started{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.footer-container li{
+    list-style: none;
+}
+.footer-a a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-a li{
+    margin: 20px 0px 20px 0px;
+}
+hr{
+    border-color: rgba(255, 255, 255, 0.10);
+    margin-top: 20px;
+}
+.copyright{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding:40px;
+}
 
 
 /* Responsive design for Mobile device */
