@@ -8,6 +8,11 @@
 .display-flex{
     display: flex;
 }
+.shape{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-size: 78px;
+}
 .common-description{
     color:rgba(255, 255, 255, 0.50);
 }
@@ -187,7 +192,7 @@ table, tr, td, th{
     flex-direction: column;
 }
 .activity{
-    width: 96%;
+    width: 87%;
 }
 .calculate{
     max-width: 225px;
@@ -232,7 +237,9 @@ table, tr, td, th{
     background-color: #222;
     padding: 50px;
 }
-
+.site-title{
+    padding-bottom: 20px;
+}
 .footer-container{
     display: flex;
     /* grid-template-columns: repeat(3, 1fr); */
@@ -354,6 +361,52 @@ hr{
     padding-top: 30px;
 }
 
+
+
+
+
+.featured-products{
+    background-color: black;
+}
+.product-details{
+    width: 50%;
+    text-align: center;
+
+
+}
+.main-div{
+    max-width: 975px;
+    margin: 0px auto;
+}
+.product-details img{
+    max-width: 335px;
+    border-radius: 50px;
+    padding-bottom: 15px;
+}
+.product-title{
+    color: wheat;
+}
+.products-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 50px;
+}
+.learn-more{
+    color: white;
+    background-color: #E6533C;
+    border-radius: 45px;
+    padding: 8px 12px;
+    border: none;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
 /* Responsive design for Mobile device */
 @media screen and (max-width: 576px) {
     .body{
@@ -437,6 +490,7 @@ hr{
 
     .footer-container{
         flex-direction: column;
+        gap: 30px;
     }
     .main{
         margin: 0px;
@@ -450,5 +504,13 @@ hr{
         bottom: -30px;
         right: 300px
     }
-    
+
+    .products-container{
+        flex-direction: column;
+        padding-left: 120px;
+    }
+    .product-details{
+        text-align: center;
+    }
+
 }
