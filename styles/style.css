@@ -191,7 +191,7 @@ table, tr, td, th{
 /* Trainer */
 .meet-our-team{
     max-width: 1000px;
-    margin: 100px auto;
+    margin: 100px auto 50px auto;
 }
 .img-container{
     display: grid;
@@ -210,6 +210,25 @@ table, tr, td, th{
 }
 .trainer-desc{
     padding: 30px 0px;
+}
+
+/* Footer section */
+.footer{
+    background-color: #222;
+}
+
+.footer-container{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    max-width: 975px;
+    margin: 0 auto;
+    /* gap: 150px; */
+    justify-content: space-between;
+}
+.reserved{
+    display: flex;
+    flex-direction: column;
+
 }
 
 
@@ -282,5 +301,9 @@ table, tr, td, th{
     }
     .img-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-container{
+        flex-direction: column;
     }
 }
