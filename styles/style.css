@@ -11,7 +11,7 @@
 .shape{
     font-family: "Sacramento", cursive;
     font-weight: 400;
-    font-size: 78px;
+    font-size: 4.875rem;
 }
 .common-description{
     color:rgba(255, 255, 255, 0.50);
@@ -181,7 +181,7 @@ table, tr, td, th{
 }
 .bmi-tag{
     color: white;
-    font-size: 28px;
+    font-size: 1.75rem;
     padding: 30px 30px 30px 5px;
 }
 .bmi-tag-alignment{
@@ -202,34 +202,63 @@ table, tr, td, th{
 }
 
 /* Meet our team */
-.meet-our-team{
-    max-width: 1000px;
-    margin: 100px auto 0px auto;
-    padding-bottom:80px;
-}
-.meet-our-team-bg{
+.meet-our-team-section {
+    text-align: center;
+    padding: 20px;
     background-color: #000;
-    padding: 50px;
 }
-.img-container{
+
+.meet-our-team-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.meet-our-team-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #bbb;
+}
+
+.meet-our-teams-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.10);
     padding: 20px;
     border-radius: 18px;
 }
-.img-container img{
-    border-radius: 18px;
-    width: 300px;
-    height: 272px;
 
+.team-members {
+    position: relative;
+    overflow: hidden;
 }
-.trainer-title{
-    text-align: center;
+
+.team-members img {
+    width: 320px;
+    height: 320px;
+    border-radius: 18px;
 }
-.trainer-desc{
-    padding: 30px 0px;
+
+.texts-on-image {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-align: left;
+}
+
+.texts-on-image h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.texts-on-image p {
+    font-size: 1rem;
+    margin: 0;
+    color: #fff;
 }
 
 /* Footer section */
@@ -254,7 +283,7 @@ table, tr, td, th{
 
 }
 .common-started{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
 }
@@ -273,7 +302,7 @@ hr{
     margin-top: 20px;
 }
 .copyright{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     padding:40px;
@@ -339,7 +368,7 @@ hr{
     right: 350px
 }
 .ab-title{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 .second{
@@ -356,7 +385,7 @@ hr{
     right: 600px
 }
 .orange{
-    font-size: 40px;
+    font-size: 2.5rem;
     color: orangered;
     padding-top: 30px;
 }
@@ -478,14 +507,26 @@ hr{
     }
 
     /* Meet our team */
-    .meet-our-team{
-        max-width: 335px;
-        margin: 10px auto;
-        padding-bottom: 50px;
+    .meet-our-teams-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
-    .img-container{
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
+
+    .meet-our-team-section h1 {
+        font-size: 2rem;
+    }
+
+    .texts-on-image h2 {
+        font-size: 1.2rem;
+    }
+    .team-members img {
+        width: 100%;
+        height: auto;
+        border-radius: 18px;
+    }
+
+    .texts-on-image p {
+        font-size: 0.9rem;
     }
 
     .footer-container{
